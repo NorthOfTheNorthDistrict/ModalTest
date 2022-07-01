@@ -1,0 +1,22 @@
+.page3-all {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 20px;
+    margin: 0;
+    height: 400px;
+}
+.header {
+    line-height: 34px;
+    font-weight: 900;
+}
+.table {
+    padding: 0 5px;
+    border: #e1e1e1 1px solid;
+    border-radius: 5px;
+}
+.ant-table-thead>tr>th {
+    font-weight: 600;
+}
+.ant-table-cell {
+    background-color: white !important;
+}

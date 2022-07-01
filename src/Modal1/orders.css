@@ -1,0 +1,43 @@
+.modal-title {
+    margin:-10px 0 -17px -24px;
+}
+.modal-button {
+    height: 30px;
+    padding: 0 10px;
+    /* background-color: #00796b;
+    border-color: #00796b; */
+}
+.modal-form {
+    position: relative;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.modal-from-price {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+}
+.input-icon {
+    color: #ff7e00;
+    font-size: 30px;
+}
+.form-delete-button {
+    width: 32px;
+    height: 32px;
+}
+.modal-p {
+    color: gray;
+}
+.modal-p-font1 {
+    font-size: 18px;
+    color: black;
+}
+.modal-p-font2 {
+    font-size: 16px;
+    color: #00b181;
+    border-bottom:#00b181 1px solid;
+}

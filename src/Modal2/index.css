@@ -1,0 +1,65 @@
+.ant-modal-footer > button:hover {
+    border-color: #00a07b;
+    background-color: white;
+    color: #00a07b;
+}
+.modal-button {
+    border-color: #00a07b;
+    background: #00a07b;
+}
+.ant-tabs-nav {
+    margin: 0 !important;
+}
+.ant-modal-body {
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #00a07b;
+}
+.ant-tabs-tab:hover {
+    color: #00a07b;
+}
+.ant-tabs-ink-bar {
+    background-color: #00a07b;
+}
+.ant-tabs-nav-list {
+    margin: 34px 0 0 90px;
+}
+.header-img {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border: #00a07b 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #00a07b;
+    color: white;
+    line-height: 50px;
+}
+.header-msg {
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+.header-msg > span {
+    margin-right: 8px;
+}
+.header-vip {
+    height: 20px;
+    font-size: 12px;
+    padding: 2px 8px;
+    background-color: #ffee26;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.header-someone {
+    font-weight: 500;
+}
+.header-msg-icon {
+    background-color: #00a07b;
+    color: white;
+}

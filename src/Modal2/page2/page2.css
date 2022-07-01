@@ -1,0 +1,36 @@
+.page2-all {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 20px;
+    margin: 0;
+    height: 400px;
+}
+.page-msg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+.page-msg-left {
+    color: #a2a2a2;
+}
+.page-msg-right {
+    display: flex;
+    flex-direction: row;
+}
+.page-table {
+    padding: 0 5px;
+    border: #e1e1e1 1px solid;
+    border-radius: 5px;
+}
+.ant-table-thead>tr>th {
+    font-weight: 600;
+}
+.ant-table-cell {
+    background-color: white !important;
+}
+/* .ant-table-tbody>tr>td:not(:last-child) {
+    border-right: 0px !important;
+} */

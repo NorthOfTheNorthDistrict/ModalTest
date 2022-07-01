@@ -1,0 +1,74 @@
+.revise-button {
+    background-color: #00b181;;
+    border-bottom:#00b181 1px solid;
+}
+.revise-from {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 20px;
+    margin: 0;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.from-first {
+    display: flex;
+    flex-direction: column;
+}
+.input-group {
+    width: 100%;
+    margin-top: 15px;
+    /* border:#00b181 1px solid; */
+}
+.input-group1-icon {
+    background-color: #4db942;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+}
+.input-group2-icon {
+    color: #ff7e00;
+    font-size: 30px;
+}
+.from-second {
+    position: relative;
+    /* border: #00b181 1px solid; */
+}
+.fixed-msg {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+}
+.add-fromitem {
+    background-color: #fff;
+    width: 77%;
+    border: #aaa 1px solid;
+}
+.form-delete-button {
+    width: 32px;
+    height: 32px;
+}
+.add-fromitem:hover {
+    background-color: #aaa;
+}
+.add-pay {
+    background-color: #fff;
+    width: 45%;
+    border: #aaa 1px solid;
+}
+.add-pay:hover {
+    background-color: #aaa;
+}
+.modal3-p {
+    color: gray;
+    font-size: 12px;
+}
+.modal3-p-font1 {
+    font-size: 18px;
+    color: black;
+}
+.modal3-p-font2 {
+    font-size: 14px;
+    color: #00b181;
+    border-bottom:#00b181 1px solid;
+}
