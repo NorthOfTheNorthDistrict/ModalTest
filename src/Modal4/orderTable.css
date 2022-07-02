@@ -1,0 +1,63 @@
+.page-all {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.page-select {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.select-left {
+    display: flex;
+    flex-direction: row;
+}
+.ant-picker-input {
+    width:75px !important;
+}
+.select-col2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.col2-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #00796b;
+    border: #00796b 1px solid;
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 5px;
+}
+.select-right {
+    display: flex;
+    flex-direction: row;
+}
+.col8-btn1 {
+    background-color: #f5f5f5 !important;
+    color: #b8b8b8 !important;
+    border: #b8b8b8 1px solid !important;
+}
+.col8-btn2 {
+    border: #b8b8b8 1px solid !important;
+}
+.page-msg {
+    /* font-size: 14px; */
+    display: flex;
+    flex-direction: row;
+}
+.page-msg-span {
+    color: #00796b;
+    margin: 0 4px;
+}
+.page-table {
+    width: 100%;
+    height: 100%;
+}
