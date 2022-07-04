@@ -50,12 +50,16 @@
 }
 .page-msg {
     /* font-size: 14px; */
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 .page-msg-span {
     color: #00796b;
     margin: 0 4px;
+}
+.page-msg-right {
+    color: #00796b;
 }
 .page-table {
     width: 100%;

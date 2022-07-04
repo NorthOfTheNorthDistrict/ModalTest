@@ -201,12 +201,15 @@ function OrderTable() {
             </div>
             {/* 信息汇总 */}
             <div className="page-msg">
-                共有<span className='page-msg-span'>0</span>个有效订单&nbsp;(
+                <div className="page-msg-left">
+                共有<span className='page-msg-span'>0</span>个有效订单&nbsp;（
                 <span className='page-msg-span'>0</span>间夜，当日住当日退
                 <span className='page-msg-span'>0</span>间，钟点房
-                <span className='page-msg-span'>0</span>间)<Divider type="vertical" />
+                <span className='page-msg-span'>0</span>间）
+                <Divider type="vertical" />
                 预计客房营收￥0.00（房费营收￥0.00，其他消费￥0.00）
-                <span className='page-msg-span'>查看明细</span>
+                </div>
+                <div className='page-msg-right'>查看明细</div>
             </div>
             {/* 表格 */}
             <div className='page-table'>
