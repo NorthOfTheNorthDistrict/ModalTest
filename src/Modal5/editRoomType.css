@@ -1,3 +1,15 @@
+input:hover {
+    border-color: #00796b !important;
+}
+span:hover {
+    border-color: #00796b !important;
+}
+/* :focus {
+    border-color: #00796b !important;
+    color: #00796b !important;
+    box-shadow: initial !important;
+    border-radius: 5px !important;
+} */
 .edit-title-font {
     font-weight: 900;
     font-size: large;
@@ -23,12 +35,14 @@
 }
 .edit-from {
     font-size: 16px;
+    padding: 25px;
+    height: 400px;
+    overflow: auto;
 }
 .from-input-group {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 .group-title {
     width: 12%;
@@ -51,7 +65,7 @@
     line-height: 40px;
     font-size: 18px;
 }
-.input2-1 {
+.group2-1 {
     width: 30%;
     border-radius: 5px;
     font-size: 18px;
@@ -65,4 +79,43 @@
     border-radius: 5px;
     background-color: #00796b;
     color: white;
+}
+.input-group2-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+}
+.group2-2 {
+    margin-right: 8px;
+}
+.input-group2-2 > div > div {
+    padding: 8px 0 4px 0;
+    color: #8c8c8c;
+}
+.input-group2-2 Input {
+    border-radius: 5px;
+}
+.input-group3 {
+    display: flex;
+    width: 88%;
+}
+#dynamic_form_nest_item {
+    width: 100%;
+}
+.input-group3 .ant-row {
+    width: 25%;
+    padding: 0 8px 8px 0;
+    margin-right: 0 !important;
+}
+.input-group3 span {
+    border-radius: 5px !important;
+}
+.itemButton-button  {
+    border-radius: 5px;
+    color: #00796b !important;
+}
+.itemButton-button:hover {
+    color: #00796b !important;
+    border-color: #00796b !important;
 }
